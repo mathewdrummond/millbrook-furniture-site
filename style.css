@@ -15,8 +15,7 @@ body {
 /* Container utility for header */
 .container {
     max-width: 1200px;
-    margin: 
-    padding: 0 20px;
+       padding: 0 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -52,6 +51,7 @@ nav li {
 
 nav a {
     text-decoration: none;
+    
     color: #4a3b2c;
     font-weight: bold;
     transition: color 0.2s ease;
@@ -64,7 +64,7 @@ nav a:hover {
 /* Hero section */
 .hero {
     height: 80vh;
-    background-image: url('images/wood-texture.png');
+    background-image: url('wood-texture.png');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -100,6 +100,7 @@ nav a:hover {
     border-radius: 4px;
     transition: background-color 0.3s ease;
 }
+
 
 .btn:hover {
     background-color: #8f663f;
